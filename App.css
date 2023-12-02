@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; /* Remember to change after sometime */
+  /* color:white;         Remember to change after sometime */
+background-color: rgb(232, 252, 246);
+}
+
+/*side bar style*/
+
+.sidebar-container {
+  background: rgb(232, 252, 246);
+  color: rgb(221, 231, 226);
+  height: 100vh;
+  /* width: 250px; */
+  width: auto;
+  padding-left: 20px;
+  display: flex;
+}
+.sidebar-container .sidebarLinkPage {
+  /* display: flex; */
+  color: red;
+  margin-left: 150px;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: 600;
+}
+/* .sidebar-container section {
+  color: white;
+  display: flex;
+  gap: 10px;;
+} */
+.logo{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.routes-icon {
+  /* to make sidebar route align left side*/
+  margin-top: 200px;
+  margin-left: -140px;
+  
+}
+.routes-icon :hover{
+  border-radius: 5px;
+  transition: 0.2s;
+  /* background-color: rgb(33, 88, 133); */
+  color: white;
+  margin: 15px 50px 0px 10 px;
+  border-right: 50px;
+  background-color: rgb(33, 88, 133) !important;
+}
+.link {
+  display: flex;
+  color: black;
+  gap: 10px;
+  margin: 0px 10px 0px 10px;
+  margin-top: 20px;
+  transition: 0.2s cubic-bezier(0.6, -0.28,0.35,0.045);
+  font-size: 20px;
+  text-decoration: none;
+  /* background-color: transparent; */
+}
+.link:hover {
+  border: 1px solid gray;
+  border-radius: 7px;
+  transition: 0.2s cubic-bezier(0.6, -0.28,0.35,0.045);;
+  /* background-color: rgb(33, 88, 133); */
+  color: white;
+  margin: 15px 50px 0px 10 px;
+  border-right: 50px;
+  border-right-width: 20px;
+  background-color: rgb(33, 88, 133) !important;
+}
+
+.villa-type {
+  display: flex;
+  gap: 1px;
+  color: rgb(247, 83, 24);
+  margin: 12px 0px -8px 10px;
+  /* margin-bottom: -8px; */
+  text-wrap: nowrap;
+  font-size: 20px;
+}
+
+.burhani-logo {
+  color: black;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.Villa-City{
+  font-size: 12px;
+  margin: 10px 0px 0px 10px;
+  color: rgb(74, 77, 75);
+}
+.room-container .NavbarHome {
+  color: white;
+}
+.roomnav-container {
+  margin-top: 10px;
+  margin-left: -90px;
+  width: 600px;
+  /* display: flex !important; */
+  justify-content: space-between !important;
+  align-content: baseline !important;
+}
+/* .roomnav-container #form .form-control me-2{
+  margin-left: 50px;
+} */
+
+.notication-bell{
+  color: black;
+  margin-top: -30px;
+  cursor: pointer;
+  margin-right: -720px;
+  float: right;
+}
+.person-id{
+  color: black;
+  float: right;
+  margin-right: -800px;
+
+  margin-top: -40px;
+
+}
+.form-main-container .New-room-details{
+text-wrap: nowrap !important;
+float: right;
+margin-top: 40px;
+margin-right: -130px;
+}
+.table-Container{
+  margin-top: 250px !important;
+  background-color: rgb(232, 252, 246) !important;
+}
+/* .table-head{
+  padding-left: 20px;
+} */
+
+.set-rate{
+  text-decoration:underline !important;
+  background: none!important;
+  border: none !important;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069 !important;
+  font-weight: 600!important;
+  cursor: pointer;
+}
+.set-rate:hover{
+  border: none !important;
+}
+
+.edit-button, .delete-button {
+  text-decoration:none !important;
+  background: none!important;
+  border: none !important;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: black !important;
+  /* font-weight: 600!important; */
+  cursor: pointer;
+}
+
+
+.form-main-container TABLE{
+  /* display: flex; */
+  width: 100vh;
+  height: 50vh !important;
+  background-color: rgb(232, 252, 246)!important;
+}
+
+.Room-font{
+  float: left;
+  margin-left: -1200px;
+  color: rgb(74, 77, 75);
+}
+
+.horizontal-lines{
+  width: 150vh;
+}
+
+.new-form-p{
+  margin: 100px 0px 0px 350px;
+  align-items: center;
+  font-weight: 800;
+  font-size: larger;
+  text-decoration: underline;
+}
